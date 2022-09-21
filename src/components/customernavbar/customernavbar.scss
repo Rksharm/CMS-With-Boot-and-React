@@ -1,0 +1,117 @@
+
+.component-customernavbar{
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  
+  .section {
+    background-color: black;
+  }
+  
+  .navigation a,
+  .main-head {
+    /* display: block; */
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+  }
+  
+  .main-head {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px;
+  }
+  
+  .flexbox-nav {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    background-color: rgba(0, 0, 0, 0.879);
+    color: white;
+    padding: 20px;
+    margin: 0;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .footer-links > div {
+    padding: 0px 0px 0px 20px;
+  }
+  .copyright{
+      text-align: center;
+      font-size: medium;
+      font-weight: bold;
+  }
+  .footer > p{
+      padding: 0;
+      margin: 0;
+      font-size: medium;
+  }
+  .flexbox img{
+      border-radius: 10px;
+  }
+  .h2{
+      color: white;
+      border-radius: 50%; 
+      height: 300px;
+      width: 200px;
+      background-color: blue;
+  }
+  #d3{
+      padding: 12px;
+  
+  }
+  #d4{
+    padding-bottom: 40px;
+  }
+  p{
+      font-size: 90%;
+      font-weight: 540;
+      padding: 8px;
+      margin: auto;
+  }
+  .ellipse{
+      background-image: radial-gradient(rgb(229, 49, 4), rgb(69, 29, 2), rgb(175, 93, 85));
+      padding: 10px;
+      margin: auto;
+      margin-bottom: 10px;
+      background-color: rgb(233, 51, 51);
+      height: 30px;
+      width: 700px;
+      border-radius: 50%;
+      text-align: center;
+      color: white;
+      font-size: 130%;
+      align-content: center;
+      flex-wrap: wrap;
+  }
+  #d2{
+      padding: 20px;
+  
+  }
+  #grad {
+      background-image:radial-gradient(rgb(240, 152, 130), rgb(214, 114, 46), rgb(85, 175, 86));
+  }
